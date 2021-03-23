@@ -8,7 +8,7 @@ My name is Gurkmal Deol and I'm a Machine Learning Engineer and Biologist. My in
 <p>
 <img src="https://img.shields.io/badge/python%20-%23323330.svg?&style=for-the-badge&logo=python&logoColor=%23F7DF1E%22/%3E"/>
 <img src="https://img.shields.io/badge/r%20-%23323330.svg?&style=for-the-badge&logo=r&logoColor=white"/>
-<img src="https://img.shields.io/badge/SQL%20-%23323330.svg?&style=for-the-badge&logo=SQL&logoColor=white"/>
+<img src="https://img.shields.io/badge/sql%20-%23323330.svg?&style=for-the-badge&logo=sql&logoColor=white"/>
 <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=white"/>
 </p>
 ### Machine & deep learning
