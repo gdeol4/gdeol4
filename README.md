@@ -11,12 +11,12 @@ I'm currently working on two projects when I have free time and I often switch b
 </p>
 
 **1. Federated learning:**
-— Writing jupyter notebooks about federated learning to learn more about privacy perserving AI using OpenMined and PySyft.
-— Building a remote data science marketplace POC using Duet and the Ethereum blockchain
+* Writing jupyter notebooks about federated learning to learn more about privacy perserving AI using OpenMined and PySyft.
+* Building a remote data science marketplace POC using Duet and the Ethereum blockchain
 
-**2. Deep learning: **
-— Implementing a range of deep learning algorithms for computer vision on agriculture image data. Specifically weed detection.
-— Building a hexapod robot to use with a trained weed detection model to kill weeds and improve crop yield and health.
+**2. Deep learning:**
+* Implementing a range of deep learning algorithms for computer vision on agriculture image data. Specifically weed detection.
+* Building a hexapod robot to use with a trained weed detection model to kill weeds and improve crop yield and health.
 
 
 
