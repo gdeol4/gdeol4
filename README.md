@@ -6,7 +6,7 @@ My name is Gurkmal Deol and I'm a Machine Learning Engineer and Biologist. My in
 
 ## 🛠 Tech Stack
 
-### <img alt="GIF" src="https://raw.githubusercontent.com/gdeol4/gdeol4/main/syntax.gifv?raw=true" width="30" height="30" /> Languages:
+### ⌨️ Languages:
 <p>
 <img src="https://img.shields.io/badge/python%20-%23323330.svg?&style=for-the-badge&logo=python&logoColor=%23F7DF1E%22/%3E"/>
 <img src="https://img.shields.io/badge/r%20-%23323330.svg?&style=for-the-badge&logo=r&logoColor=white"/>
@@ -22,15 +22,8 @@ Scikit-learn, RDKit, PyCaret, Streamlit, Tensorflow
 </p>
 
 ### 🧰 Utilities and tools
-
-
 <p>
-  
-  <img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
-  <img src="https://img.shields.io/badge/react_native%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
-  <img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+Docker, UNIX, PostgreSQL, virtual Box, Github, Azure, Google compute and cloud run, Jupyter, Colab.
 </p>
 
 
