@@ -59,13 +59,9 @@ Docker, UNIX, PostgreSQL, virtual Box, Github, Azure, Google compute and cloud r
 #### Blog posts
 * [Living and Computing on the edge](https://towardsdatascience.com/living-and-computing-on-the-edge-a-brief-introduction-to-federated-learning-a3c07bda21c0)
 * [Calculating Maximum Likelihood Estimation by Hand Step-by-step](https://towardsdatascience.com/calculating-maximum-likelihood-estimation-by-hand-step-by-step-3a740c637c20)
-*[Predicting environmental carcinogens with logistic regression, knn, gradient boosting and molecular fingerprinting](https://towardsdatascience.com/predicting-carcinogens-with-logistic-regression-knn-gradient-boosting-and-molecular-e7952294a08c)
-*[Is a drug stored or excreted? Writing and training a simple perceptron to find out](https://towardsdatascience.com/is-a-drug-stored-or-excreted-writing-and-training-a-simple-perceptron-to-classify-bioconcentration-bc2112239ce8)
-*[A guide to Ridge, Lasso, and Elastic Net Regression and applying it in R](https://medium.com/hackernoon/an-introduction-to-ridge-lasso-and-elastic-net-regression-cca60b4b934f)
-*[]()
-*[]()
-*
-
+* [Predicting environmental carcinogens with logistic regression, knn, gradient boosting and molecular fingerprinting](https://towardsdatascience.com/predicting-carcinogens-with-logistic-regression-knn-gradient-boosting-and-molecular-e7952294a08c)
+* [Is a drug stored or excreted? Writing and training a simple perceptron to find out](https://towardsdatascience.com/is-a-drug-stored-or-excreted-writing-and-training-a-simple-perceptron-to-classify-bioconcentration-bc2112239ce8)
+* [A guide to Ridge, Lasso, and Elastic Net Regression and applying it in R](https://medium.com/hackernoon/an-introduction-to-ridge-lasso-and-elastic-net-regression-cca60b4b934f)
 
 
 <!--
