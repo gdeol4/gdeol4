@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-[![Header](https://raw.githubusercontent.com/gdeol4/gdeol4/main/karyotype.jpg "Header")](https://www.gurkamal.com)
+[![Header](https://raw.githubusercontent.com/gdeol4/gdeol4/main/d9502e6bab513a69404131137407789e9e1cb6f6.gifv "Header")](https://www.gurkamal.com)
 
 
 <!--
