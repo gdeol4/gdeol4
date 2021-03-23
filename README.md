@@ -12,7 +12,7 @@ I'm also an avid woodworker, I enjoy gardening (especialy fruits), and when I ca
 ## Currently working on
 
 <p>
-I'm currently working on two projects when I have free time and I often switch between them:
+I'm currently working on two projects in my free time and I often switch between them:
 </p>
 
 **1. Federated learning:**
@@ -52,7 +52,7 @@ Docker, UNIX, PostgreSQL, virtual Box, Github, Azure, Google compute and cloud r
 
 * [Mutating Selfies - Generating novel drugs](shorturl.at/rsyLM) — A quick streamlit web app I built using RDKit which showcases the ability of the STONED SELFIES algorithm to generate novel drug molecules using genetic algorithms instead of a GPU.
 
-* [Toxic SMILES](https://toxic-smiles.onrender.com) — I deployed a dockerized machine learning web app on Micropsoft Azure. The app is built using RDKit, Flask, Scikit-learn, and a logiostic regression model which I trained on the Tox21 dataset. My model achieves an accuracy of 96.4%. 
+* [Toxic SMILES](https://toxic-smiles.onrender.com) — I deployed a dockerized machine learning web app on Microsoft Azure. The app is built using RDKit, Flask, Scikit-learn, and a logiostic regression model which I trained on the Tox21 dataset. My model achieves an accuracy of 96.4%. 
 
 * [AutoML for drug discovery](shorturl.at/nCRV5) — I built this streamlit web app to showcase the use of AutoML for drug discovery. The app uses PyCaret for quick machine learning model prototyping and RDKit to handle and process molecular data.
 
