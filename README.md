@@ -6,7 +6,7 @@ My name is Gurkmal Deol and I'm a Machine Learning Engineer and Biologist. My in
 
 ## 🛠 Tech Stack
 
-### Languages:
+### <img alt="GIF" src="https://raw.githubusercontent.com/gdeol4/gdeol4/main/wave.gif?raw=true" width="30" height="30" /> Languages:
 <p>
 <img src="https://img.shields.io/badge/python%20-%23323330.svg?&style=for-the-badge&logo=python&logoColor=%23F7DF1E%22/%3E"/>
 <img src="https://img.shields.io/badge/r%20-%23323330.svg?&style=for-the-badge&logo=r&logoColor=white"/>
@@ -16,12 +16,12 @@ My name is Gurkmal Deol and I'm a Machine Learning Engineer and Biologist. My in
 <img src="https://img.shields.io/badge/html%20-%23323330.svg?&style=for-the-badge&logo=html&logoColor=white"/>
 </p>
 
-### Machine & deep learning
+### 🧠 Machine & deep learning:
+<p>
+Scikit-learn, RDKit, PyCaret, Streamlit, Tensorflow
+</p>
 
-Web development
-
-
-Utilities and tools
+### 🧰 Utilities and tools
 
 
 <p>
