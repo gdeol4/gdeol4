@@ -2,6 +2,8 @@
 
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/gdeol4/gdeol4/main/amoeba.gif?raw=true" width="400" height="300" />
 
+## 🛠 My projects
+
 <p>
 My name is Gurkmal Deol and I'm a Machine Learning Engineer and Biologist. My interests include AI driven drug discovery, computer vision, & federated learning.
 </p>
