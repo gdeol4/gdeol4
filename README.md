@@ -1,9 +1,14 @@
 # Hi there <img alt="GIF" src="https://raw.githubusercontent.com/gdeol4/gdeol4/main/wave.gif?raw=true" width="30" height="30" />
 
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/gdeol4/gdeol4/main/amoeba.gif?raw=true" width="400" height="300" />
-My name is Gurkmal Deol and I'm a Machine Learning Engineer and Biologist. My interests include AI driven drug discovery, computer vision, & federated learning.
 
+<p>
+My name is Gurkmal Deol and I'm a Machine Learning Engineer and Biologist. My interests include AI driven drug discovery, computer vision, & federated learning.
+</p>
+
+<p>
 I'm currently working on two projects when I have free time and I often switch between them. My goal this year is to complete the 100 days of coding challenge beggining on March 23rd.
+</p>
 
 **1. Federated learning:**
 — Writing jupyter notebooks about federated learning to learn more about privacy perserving AI using OpenMined and PySyft.
