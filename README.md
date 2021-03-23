@@ -7,7 +7,7 @@ My name is Gurkmal Deol and I'm a Machine Learning Engineer and Biologist. My in
 </p>
 
 <p>
-I'm currently working on two projects when I have free time and I often switch between them. My goal this year is to complete the 100 days of coding challenge as well as contributing to open source projects.
+I'm currently working on two projects when I have free time and I often switch between them:
 </p>
 
 **1. Federated learning:**
