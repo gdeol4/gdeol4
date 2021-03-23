@@ -9,7 +9,7 @@ My name is Gurkmal Deol and I'm a Machine Learning Engineer and Biologist. My in
 <p>
 I'm also an avid woodworker, I enjoy gardening (especialy fruits), and when I can I like to read scifi-fantasy.
 
-## 🛠 My projects
+## Currently working on
 
 <p>
 I'm currently working on two projects when I have free time and I often switch between them:
@@ -22,8 +22,6 @@ I'm currently working on two projects when I have free time and I often switch b
 **2. Deep learning:**
 * Implementing a range of deep learning algorithms for computer vision on agriculture image data. Specifically weed detection.
 * Building a hexapod robot to use with a trained weed detection model to kill weeds and improve crop yield and health.
-
-
 
 ## 🛠 Tech Stack
 
@@ -46,6 +44,27 @@ Scikit-learn, RDKit, PyCaret, Streamlit, Tensorflow
 <p>
 Docker, UNIX, PostgreSQL, virtual Box, Github, Azure, Google compute and cloud run, Jupyter, Colab.
 </p>
+
+## Projects:
+
+#### Web apps
+* [Frodotype Text Generator](https://frodotype.me) — I built a serverless and asynchronous web app with an end to end NLP model trained on 100 fantasy novels using GPT2. Deep learning performed using Google deep learning VM and tensorflow, built using python and javascript, deployed using Google cloud run and Starlette.
+
+* [Mutating Selfies - Generating novel drugs](shorturl.at/rsyLM) — A quick streamlit web app I built using RDKit which showcases the ability of the STONED SELFIES algorithm to generate novel drug molecules using genetic algorithms instead of a GPU.
+
+* [Toxic SMILES](https://toxic-smiles.onrender.com) — I deployed a dockerized machine learning web app on Micropsoft Azure. The app is built using RDKit, Flask, Scikit-learn, and a logiostic regression model which I trained on the Tox21 dataset. My model achieves an accuracy of 96.4%. 
+
+* [AutoML for drug discovery](shorturl.at/nCRV5) — I built this streamlit web app to showcase the use of AutoML for drug discovery. The app uses PyCaret for quick machine learning model prototyping and RDKit to handle and process molecular data.
+
+#### Blog posts
+* [Living and Computing on the edge](https://towardsdatascience.com/living-and-computing-on-the-edge-a-brief-introduction-to-federated-learning-a3c07bda21c0)
+* [Calculating Maximum Likelihood Estimation by Hand Step-by-step](https://towardsdatascience.com/calculating-maximum-likelihood-estimation-by-hand-step-by-step-3a740c637c20)
+*[Predicting environmental carcinogens with logistic regression, knn, gradient boosting and molecular fingerprinting](https://towardsdatascience.com/predicting-carcinogens-with-logistic-regression-knn-gradient-boosting-and-molecular-e7952294a08c)
+*[Is a drug stored or excreted? Writing and training a simple perceptron to find out](https://towardsdatascience.com/is-a-drug-stored-or-excreted-writing-and-training-a-simple-perceptron-to-classify-bioconcentration-bc2112239ce8)
+*[A guide to Ridge, Lasso, and Elastic Net Regression and applying it in R](https://medium.com/hackernoon/an-introduction-to-ridge-lasso-and-elastic-net-regression-cca60b4b934f)
+*[]()
+*[]()
+*
 
 
 
