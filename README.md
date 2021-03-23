@@ -1,5 +1,3 @@
-# [![header](https://raw.githubusercontent.com/gdeol4/gdeol4/main/banner(1).jpg)](https://www.gurkamal.com)
-
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/gdeol4/gdeol4/main/amoeba.gif?raw=true" width="500" height="320" />
 My name is Gurkmal Deol and I'm a Machine Learning Engineer and Biologist. My interests include AI driven drug discovery, computer vision, & federated learning.
 
