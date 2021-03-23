@@ -1,5 +1,8 @@
 ### Hi there 👋
 
+[![Header](https://raw.githubusercontent.com/gdeol4/gdeol4/main/karyotype.jpg "Header")](https://www.gurkamal.com)
+
+
 <!--
 **gdeol4/gdeol4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
