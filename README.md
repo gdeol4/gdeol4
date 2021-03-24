@@ -23,6 +23,7 @@ I'm currently working on two projects in my free time and I often switch between
   * Build a decentralized app based on Ethereum
   * Learn Solidity for smart contracts
   * Learn enough react.js to build a front end for the POC
+
 **2. Deep learning:**
 * Implementing a range of deep learning algorithms for computer vision on agriculture image data. Specifically weed detection.
   * Procure more data
