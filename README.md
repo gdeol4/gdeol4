@@ -29,7 +29,6 @@ I'm currently working on two projects in my free time and I often switch between
   * Train OpenCV3 model on weed identification dataset
 * Building a hexapod robot to use with a trained weed detection model to identify and harm weeds to improve crop yield and health.
   * Assemble raspberry pi 4 based hexapod
-
 ## Projects:
 
 #### Web apps
