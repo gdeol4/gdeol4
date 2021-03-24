@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--===================================================================================================-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--===================================================================================================-->
+  <title>FrodoType Text Gen</title>
+  <!--===================================================================================================-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <!--===================================================================================================-->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"> </script>
+  <script type="text/javascript" src="js/chartjs-plugin-datalabels.js"></script>
+  <script type="text/javascript" src="js/charts.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <!--===================================================================================================-->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161866819-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-161866819-1');
+  </script>
+<!--===================================================================================================-->
+</head>
+
+<body class="has-navbar-fixed-top">
+
+
+  <!--=============== SECTION 1: LANDING ===============-->
+
+  <section class="hero is-fullheight shire">
+
+    <!--=============== NAVBAR ===============-->
+
+    <div class="hero-head">
+      <nav class="level navbar is-primary is-fixed-top" style="background-color: #ffffff">
+        <div class="container">
+          <div class="navbar-brand">
+            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+              <span style="color: #000000;"></span>
+              <span style="color: #000000;"></span>
+              <span style="color: #000000;"></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroA" class="navbar-menu level">
+            <a href="#intro" class="navbar-item" style="color: #000000; font-size: 1.1rem;">
+              Home
+              &nbsp;
+              <i class="em-svg em-european_castle"></i>
+            </a>
+            <a href="#generate" class="navbar-item" style="color: #000000; font-size: 1.1rem;">
+              Generate Text
+              &nbsp;
+              <i class="em-svg em-scroll"></i>
+            </a>
+            <a href="#charts" class="navbar-item" style="color: #000000; font-size: 1.1rem;">
+              Data Visualization
+              &nbsp;
+              <i class="em-svg em-pie"></i>
+            </a>
+            <a href="#data" class="navbar-item" style="color: #000000; font-size: 1.1rem;">
+              Data
+              &nbsp;
+              <i class="em-svg em-abacus"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--=============== INTRO ===============-->
+
+    <div class="hero-body" id="intro">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-4">
+            <p class="title-font typed" style=""> FrodoType </p>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column is-6">
+            <h5 class="subtitle is-4 has-text-justified" id="typedtext"> </h5>
+          </div>
+          <div class="column is-offset-2 is-hidden-mobile" style="margin-top: -100px;">
+            <figure class="image is-square">
+              <img src="css/999.svg">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wave-container-red svg-bg is-hidden-mobile">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="white" fill-opacity="1"
+          d="M0,192L60,202.7C120,213,240,235,360,208C480,181,600,107,720,69.3C840,32,960,32,1080,26.7C1200,21,1320,11,1380,5.3L1440,0L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+        </path>
+      </svg>
+      <p style="font-family: 'Sen'; font-size: 4rem; color: white; font-weight: 700;"> Generate Text </p>
+      <!--<p class="">generate text <i class="em-svg em-lower_left_ballpoint_pen" aria-role="presentation" aria-label=""></i></p>-->
+    </div>
+  </section>
+
+  <!--=============== SECTION 2: FORM CONTROLS ===============-->
+
+  <section class="is-fullheight">
+
+    <!--=============== SECTION WAVE ===============-->
+
+    <div class="wave-container-red svg-bg is-hidden-mobile" style="height:100%; width:100%;">
+      <!--<h1> &nbsp; </h1>
+      <p class="" style="font-size: 3rem;">generate text <i class="em-svg em-lower_left_ballpoint_pen" aria-role="presentation" aria-label=""></i></p>-->
+      <p style="font-family: 'sen'; font-size: 1.15rem; color: white;"> Take Hodor to Mordor </p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="white" fill-opacity="1"
+          d="M0,160L48,160C96,160,192,160,288,170.7C384,181,480,203,576,208C672,213,768,203,864,170.7C960,139,1056,85,1152,90.7C1248,96,1344,160,1392,192L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+      </svg>
+      <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="white" fill-opacity="1"
+          d="M0,32L30,53.3C60,75,120,117,180,144C240,171,300,181,360,186.7C420,192,480,192,540,208C600,224,660,256,720,229.3C780,203,840,117,900,106.7C960,96,1020,160,1080,208C1140,256,1200,288,1260,298.7C1320,309,1380,299,1410,293.3L1440,288L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z">
+        </path> -->
+      </svg>
+
+    </div>
+
+    <!--=============== BEGINNING OF FORM CONTROLS ===============-->
+
+    <div class="section" id="generate" style="margin-top: -90px;">
+      <form id="gen-form">
+        <div class="columns is-centered" style="position: relative; z-index: 10;">
+          <div class="container">
+            <div class="card-content" style="background-color: #white;">
+              <p style="font-family: 'sen'; color: black; font-size: 3rem;">Adjust the parameters</p>
+              <!-- <p style="font-family: 'sen'; color: black; font-size: 2vw;" class="subtitle"> The top 5 authors contribute 58.1% of the data across 42 novels. The largest volume of text belongs to the late Robert Jordan and his series "The Wheel of Time" with ~20% of the total. The second largest share can be attributed to Canadian author Steven Erikson and his series "Malazan Book of the Fallen" at ~16%.</p> -->
+            </div>
+
+            <!--=============== FORM COLUMN 1 ===============-->
+            <!--INFO TEXT -->
+            <div class="column">
+              <!--<div class="box">-->
+              <div class="columns is-centered">
+                <div class="column">
+                  <div class="container has-text-justified">
+                    <label class="label">Text Prompt</label>
+                    <h3 class="subtitle is-6"> A text prompt acts as a seed for the model which then computes a sequence of words based on probability.</h3>
+                  </div>
+                </div>
+                <!--INPUT FORM -->
+                <div class="column">
+
+                  <div class="field">
+                    <label class="label">Text prompt</label>
+                    <div class="control">
+                      <textarea id="prefix" class="textarea" type="text" placeholder="The man in black fled across the desert" rows="1"></textarea>
+                    </div>
+                    <!-- optional box subtext <p class="subtitle is-6"> Optional: max 500 characters </p> -->
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!--=============== FORM COLUMN 2 ===============-->
+            <!--INFO TEXT -->
+            <div class="column">
+              <div class="columns is-centered">
+                <div class="column">
+                  <div class="container has-text-justified">
+                    <label class="label">Generated length</label>
+                    <h3 class="subtitle is-6"> The length of the generated text. A max of 1023 words can be generated - which can take up to two minutes. </h3>
+                  </div>
+                </div>
+                <!--INPUT FORM -->
+                <div class="column">
+
+                  <div class="field">
+                    <label class="label">Generated length</label>
+                    <div class="control">
+                      <input id="length" class="input" type="text" placeholder="Text input" value="100">
+                    </div>
+                    <!-- <p class="subtitle is-6"> max: 1023 </p> -->
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!--=============== FORM COLUMN 3 ===============-->
+            <!--INFO TEXT -->
+            <div class="column">
+              <div class="columns is-centered">
+                <div class="column">
+                  <div class="container has-text-justified">
+                    <label class="label">Temperature</label>
+                    <!-- https://cs.stackexchange.com/questions/79241/what-is-temperature-in-lstm-and-neural-networks-generally -->
+                    <h3 class="subtitle is-6"> Temperature controls the randomness of predictions. When the temperature approaches 1 predictions become less confident and more "creative".
+                      Temperature therefore increases the sensitivity to low probability candidates.</h3>
+                  </div>
+                </div>
+                <!--INPUT FORM -->
+                <div class="column">
+
+                  <div class="field">
+                    <label class="label">Temperature</label>
+                    <div class="control">
+                      <input id="temperature" class="input" type="text" placeholder="0.7" value="0.7">
+                    </div>
+                    <!-- <p class="subtitle is-6">0 - 1.0 </p> -->
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!--=============== FORM COLUMN 4 ===============-->
+            <!--INFO TEXT -->
+            <div class="column">
+              <div class="columns is-centered">
+                <div class="column">
+                  <div class="container">
+                    <label class="label">Top k</label>
+                    <h3 class="subtitle is-6"> Top-k limits the generated words to a select number of words with the highest probability of appearing. Setting the value to 0 removes this restriction. </h3>
+                  </div>
+                </div>
+
+                <!--INPUT FORM -->
+                <div class="column">
+                  <div class="field">
+                    <label class="label">Top k</label>
+                    <div class="control">
+                      <input id="top_k" class="input" type="text" placeholder="40" value="40">
+                    </div>
+                    <!-- <p class="subtitle is-6">set to 0 to disable </p> -->
+                  </div>
+                </div>
+
+                <!--=============== GENERATE BUTTON ===============-->
+
+              </div>
+              <div class="buttons">
+                <span class="control">
+                  <button type="submit" name="submit" id="generate-text" class="button is-link">
+                    <span class="icon">
+                      <i class="fas fa-md fa-pen"></i>
+                    </span><span>Generate Text!</span></button>
+                </span>
+              </div>
+            </div>
+
+            <!--=============== END OF FORM CONTROLS ===============-->
+
+          </div>
+
+        </div>
+      </form>
+
+      <!--=============== GENERATED TEXT BOX ===============-->
+
+    </div>
+    <div class="columns" style="padding-top: 1.5rem;">
+      <div class="column is-6 is-offset-3">
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              Generated text
+            </p>
+          </header>
+          <div class="card-content" id="model-output">
+            <p id="tutorial" class="subtitle"><em>Generated text will appear here!
+                Use the form to configure GPT-2 and press <strong>Generate Text</strong>
+                to get your own text!
+              </em></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--=============== SECTION WAVE ===============-->
+
+    <div class="wave-container-coral svg-bg is-hidden-mobile" id="charts">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 330">
+        <path fill="#ffffff" fill-opacity="1"
+          d="M0,96L21.8,133.3C43.6,171,87,245,131,282.7C174.5,320,218,320,262,272C305.5,224,349,128,393,106.7C436.4,85,480,139,524,154.7C567.3,171,611,149,655,160C698.2,171,742,213,785,218.7C829.1,224,873,192,916,202.7C960,213,1004,267,1047,272C1090.9,277,1135,235,1178,218.7C1221.8,203,1265,213,1309,218.7C1352.7,224,1396,224,1418,224L1440,224L1440,0L1418.2,0C1396.4,0,1353,0,1309,0C1265.5,0,1222,0,1178,0C1134.5,0,1091,0,1047,0C1003.6,0,960,0,916,0C872.7,0,829,0,785,0C741.8,0,698,0,655,0C610.9,0,567,0,524,0C480,0,436,0,393,0C349.1,0,305,0,262,0C218.2,0,175,0,131,0C87.3,0,44,0,22,0L0,0Z">
+        </path>
+      </svg>
+      <p style="font-family: 'Sen'; font-size: 4rem; color: white; font-weight: 700;"> Visualizing the data </p>
+    </div>
+  </section>
+
+  <!--=============== SECTION 4: DASHBOARD ===============-->
+
+  <section class="is-fullheight">
+
+    <!--=============== SECTION WAVE ===============-->
+
+    <div class="wave-container-coral svg-bg is-hidden-mobile">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="white" fill-opacity="1"
+          d="M0,160L14.1,144C28.2,128,56,96,85,122.7C112.9,149,141,235,169,229.3C197.6,224,226,128,254,112C282.4,96,311,160,339,154.7C367.1,149,395,75,424,64C451.8,53,480,107,508,149.3C536.5,192,565,224,593,197.3C621.2,171,649,85,678,69.3C705.9,53,734,107,762,117.3C790.6,128,819,96,847,80C875.3,64,904,64,932,101.3C960,139,988,213,1016,218.7C1044.7,224,1073,160,1101,138.7C1129.4,117,1158,139,1186,138.7C1214.1,139,1242,117,1271,90.7C1298.8,64,1327,32,1355,48C1383.5,64,1412,128,1426,160L1440,192L1440,320L1425.9,320C1411.8,320,1384,320,1355,320C1327.1,320,1299,320,1271,320C1242.4,320,1214,320,1186,320C1157.6,320,1129,320,1101,320C1072.9,320,1045,320,1016,320C988.2,320,960,320,932,320C903.5,320,875,320,847,320C818.8,320,791,320,762,320C734.1,320,706,320,678,320C649.4,320,621,320,593,320C564.7,320,536,320,508,320C480,320,452,320,424,320C395.3,320,367,320,339,320C310.6,320,282,320,254,320C225.9,320,198,320,169,320C141.2,320,113,320,85,320C56.5,320,28,320,14,320L0,320Z">
+        </path>
+      </svg>
+    </div>
+    <!-- <div class="container title-padding"> add this  back in later possibly -->
+
+
+    <!--=============== DASHBOARD CARDS ===============-->
+    <div class="section" style="margin-top: -30px;">
+      <div class="columns" style="margin-top:-60px; position: relative; z-index: 10;">
+        <div class="column is-6 is-offset-1">
+          <div class="card-content" style="background-color: #white;">
+            <p style="font-family: 'sen'; color: black; font-size: 3rem;">Overview of data</p>
+            <!-- <p style="font-family: 'sen'; color: black; font-size: 2vw;" class="subtitle"> The top 5 authors contribute 58.1% of the data across 42 novels. The largest volume of text belongs to the late Robert Jordan and his series "The Wheel of Time" with ~20% of the total. The second largest share can be attributed to Canadian author Steven Erikson and his series "Malazan Book of the Fallen" at ~16%.</p> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="columns is-multiline">
+
+        <!--CARD ONE -->
+
+        <div class="column">
+          <div class="box has-text-centered card-3">
+            <div class="heading">Books Total</div>
+            <div class="title">102</div>
+            <div class="level ">
+              <div class="level-item has-text-centered">
+                <div class="">
+                  <div class="heading">Books per Author</div>
+                  <div class="title is-5">5.1
+                    <span class="icon">
+                      <i class="fas fa-book"></i>
+                    </span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--CARD TWO -->
+
+        <div class="column">
+          <div class="box has-text-centered card-3">
+            <div class="heading">Authors Total</div>
+            <div class="title">20</div>
+            <div class="level ">
+              <div class="level-item has-text-centered">
+                <div class="">
+                  <div class="heading">Words per Author</div>
+                  <div class="title is-5">1,016,442
+                    <span class="icon">
+                      <i class="fas fa-pen-fancy"></i>
+                    </span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--CARD THREE -->
+
+        <div class="column">
+          <div class="box has-text-centered card-3">
+            <div class="heading">Words Total</div>
+            <div class="title is-4" style="padding-bottom:0.5rem">20,328,856</div>
+            <div class="level ">
+              <div class="level-item has-text-centered">
+                <div class="">
+                  <div class="heading">Average per Book</div>
+                  <div class="title is-5">186,608
+                    <span class="icon">
+                      <i class="fas fa-font"></i>
+                    </span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--CARD FOUR -->
+
+        <div class="column">
+          <div class="box has-text-centered card-3">
+            <div class="heading">Highest Name Count</div>
+            <div class="title">Harry</div>
+            <div class="level ">
+              <div class="level-item has-text-centered">
+                <div class="">
+                  <div class="heading">Times Mentioned</div>
+                  <div class="title is-5">16,787
+                    <span class="icon">
+                      <i class="fas fa-hat-wizard"></i>
+                    </span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--=============== BEGIN GRAPH ROW ===============-->
+
+    <div class="columns is-multiline is-centered" style="height: auto !important;">
+
+      <!--=========================================
+        beginning of bar chart for word-count
+        ========================================= -->
+
+      <div class="column is-10">
+        <div class="box card-3">
+          <article>
+            <div class="card-content" style="background-color: #white;">
+              <p style="font-family: 'sen'; color: black; font-size: 3.3vw;">Word count by author</p>
+              <!-- <p style="font-family: 'sen'; color: black; font-size: 2vw;" class="subtitle"> The top 5 authors contribute 58.1% of the data across 42 novels. The largest volume of text belongs to the late Robert Jordan and his series "The Wheel of Time" with ~20% of the total. The second largest share can be attributed to Canadian author Steven Erikson and his series "Malazan Book of the Fallen" at ~16%.</p> -->
+            </div>
+            <div style="position: relative;">
+              <div style="width: 100%; min-height:100%;">
+                <canvas id="word-count" width="640px" height="360px"> </canvas>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!--=========================================
+          beginning of line chart for word-count and words per book
+          ========================================= -->
+
+      <div class="column is-10">
+        <div class="box card-3">
+          <article>
+            <div class="card-content" style="background-color: #white;">
+              <p style="font-family: 'sen'; color: black; font-size: 3.3vw;">Author word counts and average words per book</p>
+              <!--<p style="font-family: 'sen'; color: black; font-size: 2vw;" class="subtitle">This is giberish this is This is giberish this is This is giberish this is This is giberish this is This is giberish this is This is giberish this is This is
+                giberish this is </p> -->
+            </div>
+            <div style="position: relative;">
+              <div style="width: 100%; min-height:100%;">
+                <canvas id="book-size" width="640px" height="480px"> </canvas>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!--=========================================
+          beginning of donut chart with series name totals
+          ========================================= -->
+
+      <div class="column is-5">
+        <div class="box card-3">
+          <article>
+            <div class="card-content" style="background-color: #white;">
+              <p style="font-family: 'sen'; color: black; font-size: 2rem;">Names counts by series</p>
+              <!--<p style="font-family: 'sen'; color: black; font-size: 1.15rem;" class="subtitle">This is giberish this is This is giberish this is This is giberish this is This is giberish this is This is giberish this is This is giberish this is This
+                is
+                giberish this is </p> -->
+            </div>
+            <div style="position: relative;">
+              <div style="width: 100%; min-height:100%;">
+                <canvas id="seriesbar" width="640px" height="480px"> </canvas>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!--=========================================
+          beginning of bar chart for word-count
+          ========================================= -->
+
+      <div class="column is-5">
+        <div class="box card-3">
+          <article>
+            <div class="card-content" style="background-color: #white;">
+              <p style="font-family: 'sen'; color: black; font-size: 2rem;">Top 20 names</p>
+              <!--<p style="font-family: 'sen'; color: black; font-size: 1.15rem;" class="subtitle">This is giberish this is This is giberish this is This is giberish this is This is giberish this is This is giberish this is This is giberish this is This
+                is
+                giberish this is </p>-->
+            </div>
+            <div style="position: relative;">
+              <div style="width: 100%; min-height:100%;">
+                <canvas id="namesbar" width="640px" height="480px"> </canvas>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!--=========================================
+          beginning of six-letter bar chart
+          ========================================= -->
+
+      <div class="column is-5">
+        <div class="box card-3">
+          <article>
+            <div class="card-content" style="background-color: #white;">
+              <p style="font-family: 'sen'; color: black; font-size: 2rem;">Most frequently used 6 letter words</p>
+              <!-- <p style="font-family: 'sen'; color: black; font-size: 1.15rem;" class="subtitle">This is giberish this is This is giberish this is This is giberish this is This is giberish this is This is giberish this is This is giberish this is This
+                is
+                giberish this is </p> -->
+            </div>
+            <div style="position: relative;">
+              <div style="width: 100%; min-height:100%;">
+                <canvas id="sixbar" width="640px" height="480px"> </canvas>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!--=========================================
+              beginning of seven-letter bar chart
+              ========================================= -->
+
+      <div class="column is-5">
+        <div class="box card-3">
+          <article>
+            <div class="card-content" style="background-color: #white;">
+              <p style="font-family: 'sen'; color: black; font-size: 2rem;">Most frequently used 7 letter words</p>
+              <!-- <p style="font-family: 'sen'; color: black; font-size: 1.15rem;" class="subtitle">This is giberish this is This is giberish this is This is giberish this is This is giberish this is This is giberish this is This is giberish this is This
+                is
+                giberish this is </p> -->
+            </div>
+            <div style="position: relative;">
+              <div style="width: 100%; min-height:100%;">
+                <canvas id="sevenbar" width="640px" height="480px"> </canvas>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!--=========================================
+              beginning of eight-letter bar chart
+              ========================================= -->
+
+      <div class="column is-5">
+        <div class="box card-3">
+          <article>
+            <div class="card-content" style="background-color: #white;">
+              <p style="font-family: 'sen'; color: black; font-size: 2rem;">Most frequently used 8 letter words</p>
+              <!--  <p style="font-family: 'sen'; color: black; font-size: 1.15rem;" class="subtitle">This is giberish this is This is giberish this is This is giberish this is This is giberish this is This is giberish this is This is giberish this is This
+                is
+                giberish this is </p> -->
+            </div>
+            <div style="position: relative;">
+              <div style="width: 100%; min-height:100%;">
+                <canvas id="eightbar" width="640px" height="480px"> </canvas>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!--=========================================
+              beginning of nine-letter bar chart
+              ========================================= -->
+
+      <div class="column is-5">
+        <div class="box card-3">
+          <article>
+            <div class="card-content" style="background-color: #white;">
+              <p style="font-family: 'sen'; color: black; font-size: 2rem;">Most frequently used 9 letter words</p>
+              <!--  <p style="font-family: 'sen'; color: black; font-size: 1.15rem;" class="subtitle">This is giberish this is This is giberish this is This is giberish this is This is giberish this is This is giberish this is This is giberish this is This
+                is
+                giberish this is </p> -->
+            </div>
+            <div style="position: relative;">
+              <div style="width: 100%; min-height:100%;">
+                <canvas id="ninebar" width="640px" height="480px"> </canvas>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <!--=============== SECTION 3: DATA TABLE ===============-->
+
+
+
+  <!--======================= FOOTER ====================================-->
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>FrodoType</strong> by <a href="https://www.gurkamal.com">Gurkamal Deol</a>. Using OpenAI's GPT2 and Max Woolf's gpt-2-simple.
+      </p>
+      <p>
+        This app was built with Tensorflow, Chart.js, Google Cloud Platform, Docker, & Bulma CSS.
+      </P>
+
+    </div>
+  </footer>
+  </section>
+
+</body>
+<script type="text/javascript" src="js/charts.js"></script>
+
+<!--======================= CUSTOM JAVASCRIPT ====================================-->
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="http://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+
+</html>
