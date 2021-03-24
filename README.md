@@ -17,11 +17,18 @@ I'm currently working on two projects in my free time and I often switch between
 
 **1. Federated learning:**
 * Writing jupyter notebooks about federated learning to learn more about privacy preserving AI using OpenMined and PySyft.
+  * build a simple web app to connect and recieve fitbit data
+  * configure and run raspbarry pi 4 as data server (data owner)
 * Building a remote data science marketplace POC using PySyft and the Ethereum blockchain
-
+  * Build a decentralized app based on Ethereum
+  * Learn Solidity for smart contracts
+  * 
 **2. Deep learning:**
 * Implementing a range of deep learning algorithms for computer vision on agriculture image data. Specifically weed detection.
+  * Procure more data
+  * Train OpenCV3 model on weed identification dataset
 * Building a hexapod robot to use with a trained weed detection model to identify and harm weeds to improve crop yield and health.
+  * Assemble raspberry pi 4 based hexapod
 
 ## Projects:
 
