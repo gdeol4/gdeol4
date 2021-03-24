@@ -17,7 +17,7 @@ I'm currently working on two projects in my free time and I often switch between
 
 **1. Federated learning:**
 * Writing jupyter notebooks about federated learning to learn more about privacy preserving AI using OpenMined and PySyft.
-* Building a remote data science marketplace POC using Duet and the Ethereum blockchain
+* Building a remote data science marketplace POC using PySyft and the Ethereum blockchain
 
 **2. Deep learning:**
 * Implementing a range of deep learning algorithms for computer vision on agriculture image data. Specifically weed detection.
