@@ -32,7 +32,7 @@ I'm currently working on three projects in my free time and I often switch betwe
   * Assemble raspberry pi 4 based hexapod
 
 **3. UofT ML term project:**
-* Using industrial data from a Canadian broadcast and advertising company to predicting live TV audience size.
+* Using industrial data from a Canadian broadcast and advertising company to predict live TV audience size.
   * feature engineering, using regressors for model explainability, seaborn visualizations.
 ## Projects:
 
