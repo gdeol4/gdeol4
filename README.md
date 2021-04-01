@@ -12,7 +12,7 @@ I'm also an avid woodworker, I enjoy gardening (especialy fruits), and when I ca
 ## Currently working on
 
 <p>
-I'm currently working on two projects in my free time and I often switch between them:
+I'm currently working on three projects in my free time and I often switch between them:
 </p>
 
 **1. Federated learning:**
@@ -30,6 +30,10 @@ I'm currently working on two projects in my free time and I often switch between
   * Train OpenCV3 model on weed identification dataset
 * Building a hexapod robot to use with a trained weed detection model to identify and harm weeds to improve crop yield and health.
   * Assemble raspberry pi 4 based hexapod
+
+**3. UofT ML term project:**
+* Using industrial data from a Canadian broadcast and advertising company to predicting live TV audience size.
+  * feature engineering, using regressors for model explainability, seaborn visualizations.
 ## Projects:
 
 #### Web apps
