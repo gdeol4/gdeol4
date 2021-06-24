@@ -7,7 +7,7 @@ My name is Gurkmal Deol and I'm a machine learning engineer and biologist. My in
 </p>
 
 <p>
-I'm also an avid woodworker, I enjoy gardening, and read scifi-fantasy.
+I'm also an avid woodworker, I enjoy gardening, and reading scifi-fantasy.
 
 ## Currently working on
 
