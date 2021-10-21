@@ -12,10 +12,18 @@ I'm also an avid woodworker, I enjoy gardening, and reading scifi-fantasy.
 ## Currently working on
 
 <p>
-I'm currently working on three projects in my free time and I often switch between them:
+I'm currently working on these projects in my free time:
 </p>
 
-**1. Federated learning:**
+**1. Building and expanding personal site and blog:**
+* Writing articles about applied bioinformatics tools and techniques.
+  * RDKit tutorials
+  * Deepchem tutorials
+  * Datamol tutorial
+  * Custom python functions
+* Creating cheetsheets and flashcards for ml and stats.
+
+**2. Building a federated learning platform on blockchain:**
 * Writing jupyter notebooks about federated learning to learn more about privacy preserving AI using OpenMined and PySyft.
   * build a simple web app to connect and recieve fitbit data
   * configure and run raspbarry pi 4 as data server (data owner)
@@ -24,16 +32,12 @@ I'm currently working on three projects in my free time and I often switch betwe
   * Learn Solidity for smart contracts
   * Learn enough react.js to build a front end for the POC
 
-**2. Deep learning:**
+**3. Machine learning IoT hexapod:**
 * Implementing a range of deep learning algorithms for computer vision on agriculture image data. Specifically weed detection.
   * Procure more data
   * Train OpenCV3 model on weed identification dataset
 * Building a hexapod robot to use with a trained weed detection model to identify and harm weeds to improve crop yield and health.
   * Assemble raspberry pi 4 based hexapod
-
-**3. UofT ML term project:**
-* Using industrial data from a Canadian broadcast and advertising company to predict live TV audience size.
-  * feature engineering, using regressors for model explainability, seaborn visualizations.
 ## Projects:
 
 #### Web apps
