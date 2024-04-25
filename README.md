@@ -9,10 +9,6 @@ My name is Gurkmal Deol and I'm a developer building cheminformatics and bioinfo
 <p>
 I also like to woodwork, garden, and read scifi.
 
-## Currently working on
-
-
-## Projects:
 
 #### Web apps
 * [Frodotype Text Generator](https://frodotype.me) — I built a serverless and asynchronous web app with an end to end NLP model trained on 100 fantasy novels using GPT2. Deep learning performed using Google deep learning VM and tensorflow, built using python and javascript, deployed using Google cloud run and Starlette.
