@@ -3,41 +3,15 @@
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/gdeol4/gdeol4/main/amoeba.gif?raw=true" width="400" height="300" />
 
 <p>
-My name is Gurkmal Deol and I'm a machine learning engineer and biologist. My interests include AI driven drug discovery, computer vision, & federated learning.
+My name is Gurkmal Deol and I'm a developer building cheminformatics and bioinformatics software. I primarily use Python for backend engineering, machine learning, and data analytics. Areas of interest include QSAR, molecular docking, drug design, and development.
 </p>
 
 <p>
-I'm also an avid woodworker, I enjoy gardening, and reading scifi-fantasy.
+I also like to woodwork, garden, and read scifi.
 
 ## Currently working on
 
-<p>
-I'm currently working on these projects in my free time:
-</p>
 
-**1. Building and expanding personal site and blog:**
-* Writing articles about applied bioinformatics tools and techniques.
-  * RDKit tutorials
-  * Deepchem tutorials
-  * Datamol tutorial
-  * Custom python functions
-* Creating cheetsheets and flashcards for ml and stats.
-
-**2. Building a federated learning platform on blockchain:**
-* Writing jupyter notebooks about federated learning to learn more about privacy preserving AI using OpenMined and PySyft.
-  * build a simple web app to connect and recieve fitbit data
-  * configure and run raspbarry pi 4 as data server (data owner)
-* Building a remote data science marketplace POC using PySyft and the Ethereum blockchain
-  * Build a decentralized app based on Ethereum
-  * Learn Solidity for smart contracts
-  * Learn enough react.js to build a front end for the POC
-
-**3. Machine learning IoT hexapod:**
-* Implementing a range of deep learning algorithms for computer vision on agriculture image data. Specifically weed detection.
-  * Procure more data
-  * Train OpenCV3 model on weed identification dataset
-* Building a hexapod robot to use with a trained weed detection model to identify and harm weeds to improve crop yield and health.
-  * Assemble raspberry pi 4 based hexapod
 ## Projects:
 
 #### Web apps
@@ -46,8 +20,6 @@ I'm currently working on these projects in my free time:
 * [Mutating Selfies - Generating novel drugs](https://share.streamlit.io/gdeol4/mutating-selfies/app.py) — A quick streamlit web app I built using RDKit which showcases the ability of the STONED SELFIES algorithm to generate novel drug molecules using genetic algorithms instead of a GPU.
 
 * [Toxic SMILES](https://toxic-smiles.onrender.com) — I deployed a dockerized machine learning web app on Microsoft Azure. The app is built using RDKit, Flask, Scikit-learn, and a logiostic regression model which I trained on the Tox21 dataset. My model achieves an accuracy of 96.4%. 
-
-* [AutoML for drug discovery](https://share.streamlit.io/gdeol4/pycaret_solubility/mol_sol.py) — I built this streamlit web app to showcase the use of AutoML for drug discovery. The app uses PyCaret for quick machine learning model prototyping and RDKit to handle and process molecular data. However, due to memory leaking and streamlit's minimal memory allocation, the web app will crash after a certain number of uses. The cost of hosting this app elsewhere would simply be too much at the moment.
 
 #### Blog posts
 * [Living and Computing on the edge](https://towardsdatascience.com/living-and-computing-on-the-edge-a-brief-introduction-to-federated-learning-a3c07bda21c0)
@@ -71,7 +43,7 @@ I'm currently working on these projects in my free time:
 
 ### 🧠 Machine & deep learning:
 <p>
-Scikit-learn, RDKit, PyCaret, Streamlit, Tensorflow
+Scikit-learn, RDKit, Streamlit, Tensorflow
 </p>
 
 ### 🧰 Utilities and tools
