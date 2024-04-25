@@ -35,16 +35,17 @@ I also like to woodwork, garden, and read scifi.
 <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=white"/>
 <img src="https://img.shields.io/badge/css%20-%23323330.svg?&style=for-the-badge&logo=css&logoColor=white"/>
 <img src="https://img.shields.io/badge/html%20-%23323330.svg?&style=for-the-badge&logo=html&logoColor=white"/>
+<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white%E2%80%8B"/>
 </p>
 
 ### 🧠 Machine & deep learning:
 <p>
-Scikit-learn, RDKit, Streamlit, Tensorflow
+Scikit-learn, XGBoost, DeepChem, RDKit
 </p>
 
-### 🧰 Utilities and tools
+### 🧰 Frameworks and tools
 <p>
-Docker, UNIX, PostgreSQL, virtual Box, Github, Azure, Google compute and cloud run, Jupyter, Colab.
+Docker, UNIX, PostgreSQL, Django, DjangoRestFramework.
 </p>
 
 <!--
