@@ -3,7 +3,7 @@
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/gdeol4/gdeol4/main/amoeba.gif?raw=true" width="400" height="300" />
 
 <p>
-My name is Gurkmal Deol and I'm a developer building cheminformatics and bioinformatics software. I primarily use Python for backend engineering, machine learning, and data analytics. Areas of interest include QSAR, molecular docking, drug design, and development.
+My name is Gurkamal Deol and I'm a developer building cheminformatics and bioinformatics software. I primarily use Python for backend engineering, machine learning, and data analytics. Areas of interest include QSAR, molecular docking, drug design, and development.
 </p>
 
 <p>
