@@ -6,9 +6,6 @@
 My name is Gurkamal Deol and I'm a developer building cheminformatics and bioinformatics software. I primarily use Python for backend engineering, machine learning, and data analytics. Areas of interest include QSAR, molecular docking, drug design, and development.
 </p>
 
-<p>
-I also like to woodwork, garden, and read scifi.
-
 
 ## 🛠 Tech Stack
 
